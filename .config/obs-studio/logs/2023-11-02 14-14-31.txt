@@ -1,0 +1,164 @@
+14:14:31.812: Command Line Arguments: --startreplaybuffer
+14:14:31.812: Using EGL/X11
+14:14:31.812: CPU Name: AMD Ryzen 5 5600X 6-Core Processor
+14:14:31.813: CPU Speed: 4178.717MHz
+14:14:31.813: Physical Cores: 6, Logical Cores: 12
+14:14:31.813: Physical Memory: 15902MB Total, 14228MB Free
+14:14:31.813: Kernel Version: Linux 6.4.12-lqx1-2-lqx
+14:14:31.813: Distribution: "Arch Linux" Unknown
+14:14:31.813: Desktop Environment: bspwm
+14:14:31.813: Session Type: x11
+14:14:31.813: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.21.1
+14:14:31.819: Qt Version: 6.5.2 (runtime), 6.5.0 (compiled)
+14:14:31.819: Portable mode: false
+14:14:31.987: OBS 29.1.0-6-g982c424de-modified (linux)
+14:14:31.987: ---------------------------------
+14:14:31.987: ---------------------------------
+14:14:31.987: audio settings reset:
+14:14:31.987: 	samples per sec: 48000
+14:14:31.987: 	speakers:        2
+14:14:31.987: 	max buffering:   960 milliseconds
+14:14:31.987: 	buffering type:  dynamically increasing
+14:14:32.003: ---------------------------------
+14:14:32.003: Initializing OpenGL...
+14:14:32.057: Loading up OpenGL on adapter AMD AMD Radeon RX 6700 XT (navi22, LLVM 16.0.6, DRM 3.52, 6.4.12-lqx1-2-lqx)
+14:14:32.057: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 23.1.6-arch1.4, shading language 4.60
+14:14:32.143: ---------------------------------
+14:14:32.143: video settings reset:
+14:14:32.143: 	base resolution:   1920x1080
+14:14:32.143: 	output resolution: 1920x1080
+14:14:32.143: 	downscale filter:  Lanczos
+14:14:32.143: 	fps:               60/1
+14:14:32.143: 	format:            I010
+14:14:32.143: 	YUV mode:          Rec. 601/Partial
+14:14:32.143: NV12 texture support not available
+14:14:32.143: P010 texture support not available
+14:14:32.152: Audio monitoring device:
+14:14:32.152: 	name: Default
+14:14:32.152: 	id: default
+14:14:32.152: ---------------------------------
+14:14:32.257: No AJA devices found, skipping loading AJA UI plugin
+14:14:32.257: Failed to initialize module 'aja-output-ui.so'
+14:14:32.341: No AJA devices found, skipping loading AJA plugin
+14:14:32.341: Failed to initialize module 'aja.so'
+14:14:32.358: Failed to load 'en-US' text for module: 'decklink-captions.so'
+14:14:32.374: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+14:14:32.404: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+14:14:32.404: Failed to initialize module 'decklink.so'
+14:14:33.368: [pipewire] No captures available
+14:14:33.460: [linux-vkcapture] plugin loaded successfully (version 1.4.1)
+14:14:33.493: [obs-browser]: Version 2.21.1
+14:14:33.494: [obs-browser]: CEF Version 103.0.5060.134 (runtime), 103.0.0-5060-shared-textures_143.2591+g4204d54+chromium-103.0.5060.134 (compiled)
+14:14:33.629: VAAPI: API version 1.19
+14:14:33.630: FFmpeg VAAPI H264 encoding supported
+14:14:33.634: FFmpeg VAAPI HEVC encoding supported
+14:14:33.649: os_dlopen(/usr//lib/obs-plugins/obs-filters.so->/usr//lib/obs-plugins/obs-filters.so): librnnoise.so.0: cannot open shared object file: No such file or directory
+14:14:33.649: 
+14:14:33.652: os_dlopen(/usr//lib/obs-plugins/obs-filters.so->/usr//lib/obs-plugins/obs-filters.so): librnnoise.so.0: cannot open shared object file: No such file or directory
+14:14:33.652: 
+14:14:33.652: Module '/usr//lib/obs-plugins/obs-filters.so' not loaded
+14:14:33.759: [obs-websocket] [obs_module_load] you can haz websockets (Version: 5.2.2 | RPC Version: 1)
+14:14:33.759: [obs-websocket] [obs_module_load] Qt version (compile-time): 6.5.0 | Qt version (run-time): 6.5.2
+14:14:33.759: [obs-websocket] [obs_module_load] Linked ASIO Version: 102400
+14:14:33.781: [obs-websocket] [obs_module_load] Module loaded.
+14:14:33.884: [StreamFX] Loading Version 0.12.0b299-g8b97c2b2
+14:14:33.885: [StreamFX] <gfx::opengl> Version 4.6 initialized.
+14:14:33.974: [StreamFX] Loaded Version 0.12.0b299-g8b97c2b2
+14:14:34.033: [vlc-video]: VLC 3.0.18 Vetinari found, VLC video source enabled
+14:14:34.035: ---------------------------------
+14:14:34.035:   Loaded Modules:
+14:14:34.035:     vlc-video.so
+14:14:34.035:     text-freetype2.so
+14:14:34.035:     StreamFX.so
+14:14:34.035:     rtmp-services.so
+14:14:34.035:     obs-x264.so
+14:14:34.035:     obs-websocket.so
+14:14:34.035:     obs-vst.so
+14:14:34.035:     obs-transitions.so
+14:14:34.035:     obs-outputs.so
+14:14:34.035:     obs-ffmpeg.so
+14:14:34.035:     obs-browser.so
+14:14:34.035:     linux-vkcapture.so
+14:14:34.035:     linux-v4l2.so
+14:14:34.035:     linux-pulseaudio.so
+14:14:34.035:     linux-pipewire.so
+14:14:34.035:     linux-capture.so
+14:14:34.035:     linux-alsa.so
+14:14:34.035:     image-source.so
+14:14:34.035:     frontend-tools.so
+14:14:34.035:     decklink-output-ui.so
+14:14:34.035:     decklink-captions.so
+14:14:34.035: ---------------------------------
+14:14:34.036: ==== Startup complete ===============================================
+14:14:34.121: All scene data cleared
+14:14:34.121: ------------------------------------------------
+14:14:34.124: pulse-input: Server name: 'PulseAudio (on PipeWire 0.3.78) 15.0.0'
+14:14:34.124: pulse-input: Audio format: s16le, 48000 Hz, 2 channels
+14:14:34.124: pulse-input: Started recording from 'alsa_output.usb-Logitech_G432_Gaming_Headset_000000000000-00.analog-stereo.monitor' (default)
+14:14:34.124: [Loaded global audio device]: 'Desktop Audio'
+14:14:34.125: pulse-input: Server name: 'PulseAudio (on PipeWire 0.3.78) 15.0.0'
+14:14:34.125: pulse-input: Audio format: s16le, 48000 Hz, 1 channels
+14:14:34.125: pulse-input: Started recording from 'alsa_input.usb-Logitech_G432_Gaming_Headset_000000000000-00.mono-fallback' (default)
+14:14:34.125: Source ID 'noise_gate_filter' not found
+14:14:34.125: Failed to create source 'Noise Gate'!
+14:14:34.125: Source ID 'limiter_filter' not found
+14:14:34.125: Failed to create source 'Limiter'!
+14:14:34.125: [Loaded global audio device]: 'Mic/Aux'
+14:14:34.125:     - filter: 'Noise Gate' (noise_gate_filter)
+14:14:34.125:     - filter: 'Limiter' (limiter_filter)
+14:14:34.125: xshm-input: Geometry 1920x1080 @ 0,0
+14:14:34.126: v4l2-input: Start capture from /dev/video0
+14:14:34.126: v4l2-input: Unable to open device
+14:14:34.126: v4l2-input: Initialization failed, errno: No such file or directory
+14:14:34.127: Switched to scene 'Screen'
+14:14:34.127: ------------------------------------------------
+14:14:34.127: Loaded scenes:
+14:14:34.127: - scene 'Screen':
+14:14:34.127:     - source: 'Screen Capture (XSHM)' (xshm_input)
+14:14:34.127:     - source: 'Video Capture Device (V4L2)' (v4l2_input)
+14:14:34.127: ------------------------------------------------
+14:14:34.675: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: Desktop Audio)
+14:14:34.675: 
+14:14:35.643: [StreamFX] [h264_amf] Configuration:
+14:14:35.643: [StreamFX] [h264_amf]   FFmpeg:
+14:14:35.643: [StreamFX] [h264_amf]     Custom Settings: 
+14:14:35.643: [StreamFX] [h264_amf]     Standard Compliance: Normal
+14:14:35.643: [StreamFX] [h264_amf]     Threading: None (with 1 threads)
+14:14:35.643: [StreamFX] [h264_amf]   Video:
+14:14:35.643: [StreamFX] [h264_amf]     Input: 1920x1080 yuv420p10le BT.601 525 Partial
+14:14:35.643: [StreamFX] [h264_amf]     Output: 1920x1080 nv12 BT.601 525 Partial
+14:14:35.643: [StreamFX] [h264_amf]     On GPU Index: -1
+14:14:35.643: [StreamFX] [h264_amf]     Framerate: 60/1 (60.000000 FPS)
+14:14:35.643: [StreamFX] [h264_amf]   Keyframes: 
+14:14:35.643: [StreamFX] [h264_amf]     Distance: 120 frames
+14:14:35.643: [StreamFX] [h264_amf]   AMD AMF:
+14:14:35.643: [StreamFX] [h264_amf]     Usage: transcoding <Default>
+14:14:35.643: [StreamFX] [h264_amf]     Preset: quality
+14:14:35.643: [StreamFX] [h264_amf]     Rate Control: cbr
+14:14:35.643: [StreamFX] [h264_amf]       Look-Ahead: Enabled
+14:14:35.643: [StreamFX] [h264_amf]       Frame Skipping: Disabled <Default>
+14:14:35.643: [StreamFX] [h264_amf]       Filler Data: Enabled
+14:14:35.643: [StreamFX] [h264_amf]       Bitrate:
+14:14:35.643: [StreamFX] [h264_amf]         Target: 120000000 bits/sec
+14:14:35.643: [StreamFX] [h264_amf]         Maximum: 0 bits/sec <Default>
+14:14:35.643: [StreamFX] [h264_amf]         Buffer: 120000000 bits
+14:14:35.643: [StreamFX] [h264_amf]       Quantization Parameters:
+14:14:35.643: [StreamFX] [h264_amf]         I-Frame: -1  <Default>
+14:14:35.643: [StreamFX] [h264_amf]         P-Frame: -1  <Default>
+14:14:35.643: [StreamFX] [h264_amf]     Other:
+14:14:35.643: [StreamFX] [h264_amf]       Reference Frames: -1 Frames
+14:14:35.643: [StreamFX] [h264_amf]       Enforce HRD: Disabled <Default>
+14:14:35.643: [StreamFX] [h264_amf]       VBAQ: Disabled <Default>
+14:14:35.643: [StreamFX] [h264_amf]       Access Unit Delimiter: Disabled <Default>
+14:14:35.643: [StreamFX] [h264_amf]         Maximum Size: 0  <Default>
+14:14:35.643: [StreamFX] [h264_amf]       Half-Pel Motion Estimation: Enabled <Default>
+14:14:35.643: [StreamFX] [h264_amf]       Quarter-Pel Motion Estimation: Enabled <Default>
+14:14:35.643: [StreamFX] [h264_amf]     H.264/AVC:
+14:14:35.643: [StreamFX] [h264_amf]       Profile: high
+14:14:35.643: [StreamFX] [h264_amf]       Level: auto <Default>
+14:14:36.807: ---------------------------------
+14:14:36.807: [FFmpeg aac encoder: 'Track1'] bitrate: 320, channels: 2, channel_layout: stereo
+14:14:36.807: 
+14:14:36.817: ==== Replay Buffer Start ===========================================
+15:04:00.761: adding 21 milliseconds of audio buffering, total audio buffering is now 42 milliseconds (source: Desktop Audio)
+15:04:00.761: 

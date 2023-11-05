@@ -1,0 +1,9 @@
+@theme "~/.local/share/rofi/themes/nord.rasi"
+
+configuration {
+
+	terminal: "alacritty";
+	modi: "combi,drun,run";
+	show-icons: true;
+	combi-modi: "drun,run";
+}
