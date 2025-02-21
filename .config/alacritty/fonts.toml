@@ -1,0 +1,18 @@
+[font]
+size = 12
+
+[font.bold]
+family = "Perfect DOS VGA 437"
+
+[font.bold_italic]
+family = "Perfect DOS VGA 437"
+
+[font.italic]
+family = "Perfect DOS VGA 437"
+
+[font.normal]
+family = "Perfect DOS VGA 437"
+
+[font.offset]
+x = 0
+y = 0
